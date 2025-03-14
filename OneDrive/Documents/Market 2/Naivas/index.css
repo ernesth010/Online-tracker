@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ .main-header {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+ }
+ .main-header nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+   
+     
+ } 
+ .main-header nav h5 {
+    color: white;
+    margin-left: 29px;
+ }
+ .profiles{
+    align-items: center;
+    display: flex;
+    gap: 9px;
+    margin-left: 690px;
+ }
+ .profiles p {
+    color: white;
+ }
+ .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: medium;
+ }
+ .heart i {
+    color: orange;
+ }
+ .call-icon i{
+    color: orange;
+ }
+ .contact p {
+    color: white;
+    
+ }
+.hero-header img{
+    width: 104px;
+    margin-top: 7px;
+    margin-left: 10px;
+
+}
+.hero-header{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+
+}
+.search-bar{
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    width: 41%;
+    padding: 1px 25px;
+   
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.location-gen{
+   display: flex;
+   align-items: center;
+   background-color: yellow;
+   justify-content: space-between;
+   gap: 10rem;
+}
+
+.cash{
+   border: 2px solid orange;
+   height: 40px;
+   border-radius: 10px;
+   
+}
+.cash .kes {
+   border-bottom: 1px solid black;
+}
+.cash .kes {
+   border-color:orange ;
+   background: orange;
+   font-weight: 700;
+   color: white;
+}
+.cash .save p {
+   margin: auto;
+   text-align: center;
+
+   padding: 02px;
+}
