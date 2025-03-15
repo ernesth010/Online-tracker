@@ -8,13 +8,15 @@ body{
     background-color: green;
     display: flex;
     align-items: center;
-    align-content: center;
-    width: 100%;
+    /* align-content: center; */
+    /* width: 100%; */
+    /* padding: 1px -2px; */ 
  }
  .main-header nav {
     display: flex;
     align-items: center;
     gap: 6px;
+    /* padding: 1px 3px; */
    
      
  } 
@@ -25,12 +27,14 @@ body{
  .profiles{
     align-items: center;
     display: flex;
-    gap: 9px;
-    margin-left: 690px;
+    gap: 13px;
+    margin-left: 40rem;
  }
  .profiles p {
     color: white;
+    cursor: pointer;
  }
+
  .contact{
     display: flex;
     align-items: center;
@@ -52,54 +56,84 @@ body{
     width: 104px;
     margin-top: 7px;
     margin-left: 10px;
+    cursor: pointer;
 
 }
 .hero-header{
    display: flex;
    align-items: center;
-   gap: 20px;
-
+   /* gap: 14px; */
+   justify-content: space-between;
 }
 .search-bar{
     border: 2px solid grey;
     display: flex;
     align-items: center;
-    width: 41%;
-    padding: 1px 25px;
+    width: 30%;
+    padding: 13px 20px;
    
 }
 .search-icon{
     display: flex;
     align-items: center;
     gap: 5px;
-    
+    cursor: pointer;
 }
-.location-gen{
+.user-icon{
+   cursor: pointer;
+}
+.deliver{
    display: flex;
    align-items: center;
-   background-color: yellow;
-   justify-content: space-between;
-   gap: 10rem;
+   gap: 4px;
 }
-
-.cash{
-   border: 2px solid orange;
-   height: 40px;
-   border-radius: 10px;
+.deliver p{
+   color: green;
+}
+.county{
+   margin-top: -1.6rem;
+   color: green;
+   font-size: 18px;
+}
+.deliver div{
+   background-color: orange;
+   border: 1px solid gray;
+   padding: 1px 20px;
+   color: white;
+   cursor: pointer;
+}
+.register{
+   margin-top: -1.0rem;
+}
+.sign-in{
+   font-size: 18px;
+   color: green;
+   cursor: pointer;
    
 }
-.cash .kes {
-   border-bottom: 1px solid black;
+.kes{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   margin-top: 15px;
+   /* border: 1px solid gray; */
+   /* background-color: orange; */
 }
-.cash .kes {
-   border-color:orange ;
-   background: orange;
-   font-weight: 700;
-   color: white;
+.save{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   margin-top: -1.5rem;
+   margin-left: 13px;
 }
-.cash .save p {
-   margin: auto;
-   text-align: center;
+.cash{
+   border: 1px solid gray;
+   padding: 2px 2px;
+   border-radius: 10px;
+   height: 80px;
+   cursor: pointer;
+   /* margin-left: 203px; */
+}
+.profiles{
 
-   padding: 02px;
 }
